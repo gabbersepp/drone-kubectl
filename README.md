@@ -2,6 +2,8 @@
 
 This [Drone](https://drone.io/) plugin allows you to use `kubectl` without messing around with the authentication
 
+>**Note:** I just forked from https://github.com/sinlead/drone-kubectl and merged the PR https://github.com/sinlead/drone-kubectl/pull/10 into my fork. The only noticable change was a fix that enables the usage of other usernames than `default`.
+
 ## Usage
 
 ```yaml
